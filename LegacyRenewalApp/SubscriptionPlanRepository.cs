@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
+using LegacyRenewalApp.Abstractions;
 
 namespace LegacyRenewalApp
 {
-    public class SubscriptionPlanRepository
+    public class SubscriptionPlanRepository : ISubscriptionPlanRepository
     {
         public static readonly Dictionary<string, SubscriptionPlan> Database = new Dictionary<string, SubscriptionPlan>
         {
