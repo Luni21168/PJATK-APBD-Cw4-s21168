@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Billing\" />
     <Folder Include="Factories\" />
     <Folder Include="Pricing\" />
-    <Folder Include="Validation\" />
   </ItemGroup>
 
 </Project>
