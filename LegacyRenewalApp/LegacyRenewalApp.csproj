@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Billing\" />
+    <Folder Include="Factories\" />
+    <Folder Include="Pricing\" />
+    <Folder Include="Validation\" />
+  </ItemGroup>
+
+</Project>
